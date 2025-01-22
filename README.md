@@ -93,25 +93,28 @@ ____________________________________
 **Inicia el servidor de desarrollo**:npm start
 ______________________________________
 
-📁 Estructura del Proyecto
+## 📁 **Estructura del Proyecto**
+
+```plaintext
 tienda-virtual/
-├── backend/          # Servidor y lógica del negocio
-│   ├── models/       # Modelos para MongoDB (usuarios, productos, pedidos)
-│   ├── routes/       # Rutas API
-│   ├── controllers/  # Controladores de la lógica de negocio
-│   ├── middleware/   # Middleware personalizado (autenticación, validaciones)
-│   └── server.js     # Archivo principal del servidor
+├── backend/                  # Servidor y lógica del negocio
+│   ├── models/               # Modelos para MongoDB (usuarios, productos, pedidos)
+│   ├── routes/               # Rutas API
+│   ├── controllers/          # Controladores de la lógica de negocio
+│   ├── middleware/           # Middleware personalizado (autenticación, validaciones)
+│   └── server.js             # Archivo principal del servidor
 │
-├── frontend/         # Aplicación React
+├── frontend/                 # Aplicación React
 │   ├── src/
-│   │   ├── components/  # Componentes reutilizables de React
-│   │   ├── pages/       # Páginas de la aplicación (Inicio, Productos, etc.)
-│   │   ├── hooks/       # Custom hooks para manejo de estado y lógica
-│   │   ├── assets/      # Imágenes, fuentes y otros recursos estáticos
-│   │   └── App.js       # Punto de entrada del frontend
+│   │   ├── components/       # Componentes reutilizables de React
+│   │   ├── pages/            # Páginas de la aplicación (Inicio, Productos, etc.)
+│   │   ├── hooks/            # Custom hooks para manejo de estado y lógica
+│   │   ├── assets/           # Imágenes, fuentes y otros recursos estáticos
+│   │   └── App.js            # Punto de entrada del frontend
 │
-├── README.md         # Documentación del proyecto
-└── package.json      # Configuración general del proyecto
+├── README.md                 # Documentación del proyecto
+└── package.json              # Configuración general del proyecto
+
 
 _______________________________________________________________
 

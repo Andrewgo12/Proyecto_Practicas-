@@ -1,0 +1,4 @@
+Carpeta: events
+orderEvents.js: Define los eventos relacionados con las órdenes, como la creación de nuevas órdenes, actualización del estado o cancelaciones.
+paymentEvents.js: Define los eventos relacionados con pagos, como la confirmación de pago, fallos en pagos, etc.
+productNotification.js: Define eventos para notificaciones de productos, como alertas de stock o actualizaciones de productos.

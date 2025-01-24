@@ -1,0 +1,19 @@
+const winston = require('winston');
+
+const productLogger = winston.createLogger({
+  level: 'info',
+  transports: [
+    new winston.transports.File({ filename: 'logs/product.log', level: 'info' })
+  ]
+});
+
+function logProductAction(productId, action) {
+  productLogger.info(`Producto con ID ${productId} ha realizado la acción: ${action}`);
+}
+
+module.exports = logProductAction;
+
+// Ejemplo de uso
+logProductAction('product123', 'creado');
+logProductAction('product123', 'actualizado');
+logProductAction('product123', 'eliminado');

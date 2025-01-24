@@ -1,0 +1,9 @@
+Resumen de los servicios:
+auth.js: Lógica de autenticación (registro y login de usuarios).
+login.js: Servicio de inicio de sesión que usa el servicio de auth.
+manageProduct.js: Gestión de productos (crear, actualizar, eliminar).
+notificationProduct.js: Envío de notificaciones por correo electrónico a los usuarios sobre productos.
+payment.js: Procesamiento de pagos utilizando una pasarela de pagos (como Stripe).
+purchase.js: Gestión de compras y órdenes.
+user.js: Obtención y actualización de la información de los usuarios.
+order.js: Gestión de las órdenes de los usuarios.

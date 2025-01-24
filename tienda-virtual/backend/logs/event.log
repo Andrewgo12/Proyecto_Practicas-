@@ -1,0 +1,18 @@
+const winston = require('winston');
+
+const eventLogger = winston.createLogger({
+  level: 'info',
+  transports: [
+    new winston.transports.File({ filename: 'logs/event.log', level: 'info' })
+  ]
+});
+
+function logEvent(message) {
+  eventLogger.info(message);
+}
+
+module.exports = logEvent;
+
+// Ejemplo de uso
+logEvent('Producto con ID 123 creado con éxito');
+logEvent('Producto con ID 123 eliminado con éxito');

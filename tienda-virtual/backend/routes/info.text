@@ -1,9 +1,0 @@
-Resumen carpeta routes:
-action.js: Rutas relacionadas con las acciones en la tienda, como la gestión de productos y pedidos.
-auth.js: Rutas relacionadas con la autenticación, como el registro y el inicio de sesión de usuarios.
-cart.js: Rutas para interactuar con el carrito de compras (agregar productos, ver el carrito, etc.).
-manageProduct.js: Rutas para la gestión de productos, como la creación, actualización o eliminación de productos.
-notificationProduct.js: Rutas para enviar notificaciones a los usuarios sobre productos, como cambios en el stock o precios.
-order.js: Rutas relacionadas con los pedidos, como la creación de un nuevo pedido o la obtención de órdenes de un usuario.
-payment.js: Rutas relacionadas con el procesamiento de pagos, como la creación de un pago o la verificación de su estado.
-product.js: Rutas relacionadas con la gestión de productos, como obtener todos los productos o buscar un producto en específico.

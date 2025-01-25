@@ -1,6 +1,0 @@
-Resumen carpeta scrips:
-dbInit.js: Inicializa la base de datos con datos predeterminados.
-populateData.js: Pobla la base de datos con datos desde un archivo JSON.
-cleanup.js: Realiza limpieza en la base de datos eliminando registros innecesarios.
-updatePrices.js: Actualiza los precios de los productos con un porcentaje de aumento.
-generateReports.js: Genera informes de productos y órdenes en formato CSV.

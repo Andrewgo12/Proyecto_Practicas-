@@ -1,8 +1,0 @@
-Resumen carpeta models:
-Action.js: Define las acciones disponibles en la tienda (como crear, actualizar o eliminar productos).
-Cart.js: Modela el carrito de compras, donde se almacenan los productos seleccionados por un usuario antes de realizar la compra.
-Order.js: Define los pedidos realizados por los usuarios, incluyendo productos, cantidad y precio total.
-Payment.js: Define el modelo de pago, incluyendo detalles de la transacción (estado de pago, método, etc.).
-Product.js: Modela los productos disponibles en la tienda, con atributos como nombre, descripción, precio, etc.
-Session.js: Maneja la sesión de un usuario, incluyendo información como su ID, fecha de inicio y duración de la sesión.
-User.js: Modela los usuarios de la tienda, con información como nombre, correo electrónico, contraseña y rol (administrador, cliente, etc.).

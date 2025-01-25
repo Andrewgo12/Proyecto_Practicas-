@@ -1,9 +1,0 @@
-app.js: Es el archivo principal de la aplicación donde se configuran y cargan todos los middlewares, rutas y servicios necesarios para el funcionamiento del servidor. Aquí también se inicializa la base de datos y se configuran las variables de entorno.
-
-migrateDatabase.js: Contiene scripts para realizar migraciones de la base de datos, como crear o actualizar tablas, aplicar cambios en la estructura de la base de datos, o poblarla con datos predeterminados en caso de ser necesario.
-
-runTests.js: Ejecuta los tests automatizados de la aplicación. Se utilizan frameworks de pruebas como Jest o Mocha para verificar que todas las funcionalidades del sistema estén funcionando correctamente antes de ponerlo en producción.
-
-server.js: Configura y arranca el servidor Express. Este archivo es donde se especifica el puerto en el que se ejecuta la aplicación y se inicializan los servicios necesarios para el funcionamiento del servidor.
-
-startServer.js: Inicia el servidor, configurando la conexión con la base de datos y realizando las configuraciones de inicio necesarias. Es un archivo donde se preparan todas las dependencias antes de que la aplicación comience a recibir solicitudes.

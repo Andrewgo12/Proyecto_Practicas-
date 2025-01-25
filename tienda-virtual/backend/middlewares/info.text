@@ -1,8 +1,0 @@
-Carpeta: middlewares
-actionMiddleware.js: Maneja las acciones generales que se realizan sobre productos, usuarios, etc. Registra las acciones realizadas sobre los recursos especificados.
-authMiddleware.js: Verifica si un usuario está autenticado usando un token JWT. Si no está autenticado, niega el acceso.
-errorHandling.js: Maneja los errores que ocurren durante el ciclo de vida de una solicitud y responde con un mensaje de error adecuado.
-productMiddleware.js: Verifica si un producto existe antes de realizar acciones sobre él, como actualizarlo o eliminarlo.
-rateLimitMiddleware.js: Limita el número de solicitudes que un usuario puede hacer en un tiempo determinado para prevenir ataques de denegación de servicio (DoS).
-sessionMiddleware.js: Maneja la creación y validación de sesiones de usuario, útil si se prefiere trabajar con sesiones tradicionales en lugar de JWT.
-validationMiddleware.js: Valida la entrada de datos en el cuerpo de la solicitud para asegurarse de que los datos sean correctos (como la validación de productos).

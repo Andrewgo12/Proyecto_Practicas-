@@ -1,5 +1,0 @@
-Carpeta: config
-dbConfig.js: Configura la conexión a la base de datos, especificando la URL, opciones de conexión y el entorno.
-jwtConfig.js: Contiene la configuración del token JWT, como la clave secreta y la duración del token.
-appConfig.js: Contiene configuraciones generales de la aplicación, como puertos, API keys, etc.
-mailerConfig.js: Configura la conexión y autenticación para el servicio de envío de correos electrónicos.

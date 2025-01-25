@@ -1,7 +1,0 @@
-Carpeta: logs
-activity.log: Guarda todas las actividades generales de la tienda, como la creación o modificación de productos y usuarios.
-error.log: Guarda todos los errores ocurridos en el servidor o en cualquier parte del sistema.
-security.log: Registra eventos de seguridad, como intentos fallidos de inicio de sesión, accesos no autorizados, etc.
-event.log: Registra eventos importantes en el sistema, como la creación o eliminación de productos.
-user.log: Registra todas las acciones relacionadas con los usuarios, como registros, actualizaciones y eliminaciones de cuentas.
-product.log: Registra todas las acciones relacionadas con los productos, como creación, actualización o eliminación.

@@ -1,9 +1,0 @@
-Resumen carpeta controllers:
-actionController.js: Controla las acciones relacionadas con los productos, como agregar o eliminar productos de una orden.
-authController.js: Controla las acciones de autenticación, como el registro y login de usuarios.
-cartController.js: Controla las interacciones con el carrito de compras, como agregar productos al carrito o eliminar artículos.
-manageProductController.js: Controla las acciones de gestión de productos, como crear, actualizar o eliminar productos.
-notificationProductController.js: Controla las notificaciones enviadas a los usuarios sobre productos, como la disponibilidad o cambios en los precios.
-orderController.js: Controla las interacciones relacionadas con los pedidos, como la creación de una orden o la obtención de detalles de una orden.
-paymentController.js: Controla las interacciones con el proceso de pagos, como la creación de un pago y la verificación de su estado.
-productController.js: Controla las interacciones con los productos, como obtener todos los productos o buscar un producto específico.

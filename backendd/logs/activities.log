@@ -1,0 +1,17 @@
+const winston = require('winston');
+
+const activityLogger = winston.createLogger({
+  level: 'info',
+  transports: [
+    new winston.transports.File({ filename: 'logs/activity.log', level: 'info' })
+  ]
+});
+
+function logActivity(message) {
+  activityLogger.info(message);
+}
+
+module.exports = logActivity;
+
+// Ejemplo de uso
+logActivity('Un usuario ha accedido a la tienda');

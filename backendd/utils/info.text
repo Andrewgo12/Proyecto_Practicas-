@@ -1,0 +1,15 @@
+Resumen carpeta utils:
+
+dateUtils.js: Contiene funciones para manejar fechas, como formatear fechas, obtener la fecha actual, calcular la diferencia entre fechas, y verificar si una fecha es anterior o posterior a la actual.
+
+emailService.js: Permite el envío de correos electrónicos utilizando Nodemailer. Incluye funciones para enviar correos simples, con archivos adjuntos, y correos HTML.
+
+bencryption.js: Proporciona funciones para cifrar y comparar contraseñas utilizando bcrypt. También valida la seguridad de las contraseñas y genera tokens basados en contraseñas.
+
+errorHandler.js: Maneja los errores de la aplicación, proporcionando funciones para registrar errores generales, de validación y de autenticación, y para manejar errores HTTP específicos.
+
+logger.js: Utiliza winston para registrar los logs de la aplicación. Incluye funciones para registrar mensajes de información, advertencia y error, tanto en consola como en archivo.
+
+timeLimit.js: Proporciona funciones para limitar el tiempo de ejecución de funciones o tareas, comprobar si una fecha es válida dentro de un límite de tiempo y ejecutar tareas repetidamente dentro de un tiempo específico.
+
+validation.js: Contiene funciones para validar diferentes tipos de entradas de usuario, como correos electrónicos, números de teléfono, contraseñas, nombres de usuario y URLs.

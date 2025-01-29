@@ -63,39 +63,6 @@ Antes de comenzar, asegúrate de tener instalado en tu sistema:
 3. **Git** (para clonar el repositorio)
 4. Navegador moderno compatible con ES6+
 
----
-
-## 🚀 **Configuración y Ejecución**
-_______________________________________________________________
-### 🔧 **Configuración General**
-1. **Clona este repositorio:**
-   ```bash
-   git clone https://github.com/tu-usuario/tienda-virtual.git
-   cd tienda-virtual
-_______________________________________________________________
-2.  Crea el archivo .env:
-Copia el siguiente contenido y edítalo con tus propias credenciales:
-env
-_______________________________________________________________
-# Configuración Backend
-PORT=5000
-MONGO_URI=mongodb+srv://<usuario>:<contraseña>@cluster.mongodb.net/tienda
-JWT_SECRET=clave-secreta-super-segura
-_____________________________________
-🛠️ Backend
-**Ve a la carpeta del backend**: cd backend
-**Instala las dependencias**:npm install
-**Inicia el servidor:** npm start
-____________________________________
- _______**Frontend**___________
-**Ve a la carpeta del frontend**:cd frontend
-**Instala las dependencias**:npm install
-**Inicia el servidor de desarrollo**:npm start
-______________________________________
-
-_______________________________________________________________
-
-
 
 
 
